@@ -13,24 +13,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let mrAttributes: [NSAttributedString.Key: Any] = [
-            .foregroundColor: UIColor.green,
-            .font: UIFont.systemFont(ofSize: 25.0),
-            .strikethroughStyle: 3,
-            .strikethroughColor: UIColor.red,
+            .foregroundColor: UIColor.green, //Text color
+            .font: UIFont.systemFont(ofSize: 25.0), //Font, Font size
+            .strikethroughStyle: 3, //Width of strikethrough line
+            .strikethroughColor: UIColor.red, //Color of strikethrough line
         ]
         let nameAttributes: [NSAttributedString.Key: Any] = [
-            .foregroundColor: UIColor.white,
-            .font: UIFont.systemFont(ofSize: 50.0),
-            .backgroundColor: UIColor.yellow,
-            .strokeWidth: 5.0,
-            .strokeColor: UIColor.gray,
-            .kern: 20
+            .foregroundColor: UIColor.white, //Text color
+            .font: UIFont.systemFont(ofSize: 50.0), //Font, Font size
+            .backgroundColor: UIColor.yellow, //Background color
+            .strokeWidth: 5.0, //Word border width
+            .strokeColor: UIColor.gray, //Word border color
+            .kern: 20 //Space between letters
         ]
         let lastNameAttributes: [NSAttributedString.Key: Any] = [
-            .foregroundColor: UIColor.red,
-            .font: UIFont.systemFont(ofSize: 30.0, weight: .heavy),
-            .underlineStyle: 2,
-            .underlineColor: UIColor.blue
+            .foregroundColor: UIColor.red, //Text color
+            .font: UIFont.systemFont(ofSize: 30.0, weight: .heavy), //Font, Font size and Font Weight
+            .underlineStyle: 2, //Width of underline
+            .underlineColor: UIColor.blue //Color of underline
         ]
         let mr = "Mr."
         let name = "John"
